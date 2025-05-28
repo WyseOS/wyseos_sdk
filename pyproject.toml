@@ -1,0 +1,13 @@
+[project]
+name = "wyseos_sdk"
+version = "0.1.0"
+description = "A Python SDK for WyseOS"
+requires-python = ">=3.11"
+authors = [{ name = "WyseOS", email = "support@wyseos.com" }]
+dependencies = [
+    "requests>=2.28.1",
+    "pydantic>=2.10.6",
+    "pydantic-settings>=2.0.2",
+]
+license = "Apache-2.0"
+readme = "README.md"
